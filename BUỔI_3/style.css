@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    background: red;
+    margin: 50px auto;
+    
+}
+.root{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.root li{
+    width: 20%;
+    height: 60px;
+    padding: 15px 0px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.root li:hover{
+    background: gray;
+    position: relative;
+}
+.root a{
+    color: black;
+    text-decoration: none;
+}
+.submenu {
+    list-style: none;
+    top: 96%;
+    width: 350px;
+    height: 60px;
+    display: none;
+    position: absolute;
+}
+.submenu li{
+    width: 100%;
+    background: yellowgreen;
+    text-align: center;
+    padding: 15px 0px;
+}
+.menu li:hover .submenu{
+    display: block;
+    position: relative;
+}
+.submenu-con{
+    list-style: none;
+    width: 350px;
+    height: 60px;
+    display: none;
+    position: absolute;
+    left: 100%;
+    bottom: 1px;
+}
+.submenu-con li{
+    width: 100%;
+    background: yellow;
+    padding: 15px 0px;
+}
+.submenu-con li:hover{
+    background: gray;
+}
+.submenu li:hover .submenu-con{
+    display: block;
+}

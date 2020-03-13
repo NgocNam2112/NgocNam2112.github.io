@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="surround">
+        <div>
+            <div class="title">Hàm, rẽ nhánh, vòng lặp</div>
+            <div class="left">
+                <div class="head">
+                    <h4>Yêu cầu:</h4>
+                    <p>Xây dựng hàm giải phương trình bậc 2.</p>
+                    <input type="number" id="varA">x2 + <input type="number" id="varB">x + <input type="number" id="varC"> = 0
+                    <br>
+                    <button onclick="reset()">Reset</button>
+                    <button onclick="ptb2()">Submit</button>
+                    <h4>Kết quả</h4>
+                    <p id="ptb2"></p>
+                </div>
+                <div class="mid">
+                    <h4>Yêu cầu:</h4>
+                    <p>Nhập vào tháng, năm. In ra số ngày của tháng đó.</p>
+                    Month: <input type="number" id="month"> Year: <input type="number" id="year">
+                    <span id="error" style="color: red"></span>
+                    <br>
+                    <button >Reset</button>
+                    <button onclick="getDate();return false;">Submit</button>
+                    <h4>Kết quả</h4>
+                    <p id="date"></p>
+                </div>
+                <div class="foot">
+                    <h4>Yêu cầu:</h4>
+                    <p>Nhập vào 1 số nguyên n, yêu cầu xuất tất cả số nguyên tố từ 1 đến n (mỗi số cách 1 khoảng trắng), nếu không có số nào, xuất -1.</p>
+                    Nhập N: <input type="number" id="numberN">
+                    <span id="errornum" style="color:red"></span>
+                    <br>
+                    <button>Reset</button>
+                    <button onclick="printPrime();return false">Submit</button>
+                    <h4>Kết quả</h4>
+                    <p id="output"></p>
+                </div>
+            
+            </div>
+        </div>
+        <div>
+            <div class="title">Nâng cao</div>
+            <div class="foot-left">
+                <h4>Yêu cầu:</h4><br>
+            <p style="text-align: center">
+                Tạo 1 slide show đơn giản từ list object sau: <br>
+
+                            [{'bgColor': 'red',<br>
+                                    'text': '1st slide'<br>
+                                },<br>
+                                {<br>
+                                    'bgColor': 'blue',<br>
+                                    'text': '2nd slide'<br>
+                                },<br>
+                                {<br>
+                                    'bgColor': 'green',<br>
+                                    'text': '3rd slide'<br>
+                                },<br>
+                                {<br>
+                                    'bgColor': 'yellow',<br>
+                                    'text': '4th slide'<br>
+                                },<br>
+                                {<br>
+                                    'bgColor': 'ping',<br>
+                                    'text': '5th slide'<br>
+                                }<br>
+                            ]<br>
+            </p>
+            </div>
+        </div>
+    </div>
+    <script src="co_ban.js"></script>
+</body>
+</html>

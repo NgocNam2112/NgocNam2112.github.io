@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.surround{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;   
+}
+.left,.right{
+    width: 20%;
+    height: auto;
+    
+}
+.left > div,.right > div{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.left img,.right img{
+    width: 100%;
+    height: 100%;
+}
+.left img:hover,.right img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+    transition: 0.7s;
+    cursor: pointer;
+}
+.mid{
+    width: 40%;
+    height: 50vh;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.mid img{
+    width: 100%;
+    height: 100%;
+}

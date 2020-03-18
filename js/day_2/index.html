@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div class="surround">
+            <div class="left">
+                <div class="top-left" onclick="showImage('image/1.png')">
+                    <img src="image/1.png" alt="">  
+                </div>
+                <div class="middle-left" onclick="showImage('image/2.jpg')">
+                    <img src="image/2.jpg" alt="">
+                </div>
+                <div class="bottom-left" onclick="showImage('image/3.png')">
+                    <img src="image/3.png" alt="">
+                </div>
+            </div>
+            <div class="mid">
+                <img src="image/1.png" alt="" id="show">
+            </div>
+            <div class="right">
+                <div class="top-right" onclick="showImage('image/4.jpg')">
+                    <img src="image/4.jpg" alt="">
+                </div>
+                <div class="middle-right" onclick="showImage('image/5.jpg')">
+                    <img src="image/5.jpg" alt="">
+                </div>
+                <div class="bottom-right" onclick="showImage('image/6.jpg')">
+                    <img src="image/6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showImage(src){
+            document.getElementById('show').src = src;
+        }   
+    </script>
+</body>
+</html>

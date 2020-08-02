@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.head, .foot {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.head-left, .head-right, .foot-left, .foot-right {
+    background: #ecf0f1;
+    width: 48%;
+}
+.inside {
+    width: 87.5%;
+    height: 85%;
+    margin: 5%;
+}
+.logo {
+    width: 100%;
+    height: 10%;
+    background: #95a5a6;
+}
+.nav {
+    width: 100%;
+    height: 5%;
+    margin-top: 1%;
+    background: #95a5a6;
+}
+.banner-left {
+    width: 100%;
+    height: 20%;
+    margin-top: 1%;
+    background: #95a5a6;
+}
+.slide {
+    width: 100%;
+    height: 45%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.bar {
+    width: 30%;
+    height: 100%;
+    background: #95a5a6;
+}
+.area {
+    width: 65%;
+    height: 100%;
+    background: #95a5a6;
+}
+.footer {
+    width: 100%;
+    height: 5%;
+    margin-top: 4%;
+    background: #95a5a6;
+}
+.banner-right {
+    width: 100%;
+    height: 16%;
+    margin-top: 2%;
+    background: #95a5a6;
+}
+.text-area {
+    width: 100%;
+    height: 14%;
+    margin-top: 3%;
+    background: #95a5a6;
+}
+.box {
+    width: 100%;
+    height: 37%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-1, .box-2, .box-3 {
+    width: 32%;
+    height: 100%;
+    background: #95a5a6;
+}
+.foot {
+    margin-top: 4%;
+}
+.content {
+    width: 100%;
+    height: 80%;    
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.content-left {
+    width: 30%;
+    height: 100%;
+}
+.content-right {
+    width: 67%;
+    height: 100%;
+    
+}
+.head-banner {
+    width: 100%;
+    height: 20%;
+    background: #95a5a6;
+}
+.body-area {
+    width: 100%;
+    height: 75%;
+    margin-top: 5%;
+    background: #95a5a6;
+}
+.boxes {
+    width: 100%;
+    height: 43%;
+    margin-top: 2%;
+}
+.line-1, .line-2, .line-3, .line-4 {
+    width: 100%;
+    height: 18.215%;
+    display: flex;
+    justify-content: space-between;
+}
+.line-1 div, .line-2 div, .line-3 div, .line-4 div {
+    width: 21.25%;
+    height: 100%;
+    background: #95a5a6;
+}
+.line-2, .line-3, .line-4 {
+    margin-top: 2.5%;
+}
+.boxes2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+.boxes2 div {
+    width: 32%;
+    height: 100%;
+    background: #95a5a6;
+}
